@@ -1,0 +1,7 @@
+SELECT {[Tbl Vanzari Count], [Cantitate]} ON COLUMNS,
+Order(
+Descendants(
+[Tbl Clienti].[Nume Client].[All], 3),
+[Measures].[Tbl Vanzari Count], DESC) ON ROWS 
+FROM [Bd Vanzari_CUBE]
+

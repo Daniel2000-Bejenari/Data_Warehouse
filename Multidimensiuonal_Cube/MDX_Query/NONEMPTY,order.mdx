@@ -1,0 +1,13 @@
+with member [Vanzari per Client] as  
+[Tbl Produse].[Pret Inregistrare].[Pret Inregistrare] * [Measures].[Cantitate] 
+select 
+{[Measures].[Cantitate], [Measures].[Tbl Vanzari Count], [Vanzari per Client]} on columns,
+order (
+NONEMPTY(
+[Tbl Produse].[Denumire].MEMBERS * 
+[Tbl Clienti].[Nume Client].MEMBERS,
+{[Measures].[Cantitate]}
+),
+[Measures].[Cantitate], DESC
+) on rows
+from [Bd Vanzari_CUBE]

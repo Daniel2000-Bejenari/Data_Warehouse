@@ -1,0 +1,31 @@
+WITH
+  MEMBER [Measures].[Average Quantity Sold] AS
+    [Measures].[Cantitate] / [Measures].[Tbl Vanzari Count]
+  SET [Filtered Clients] AS
+    FILTER([Tbl Clienti].[Nume Client].MEMBERS, 
+      InStr([Tbl Clienti].[Nume Client].CurrentMember.Name, "GHE") > 0)
+  SET [Top 5 Products] AS
+    HEAD(
+      ORDER(
+        [Tbl Produse].[Denumire].MEMBERS,
+        [Measures].[Cantitate], DESC
+      ),
+      5
+    )
+SELECT
+  {
+    [Measures].[Cantitate],
+    [Measures].[Tbl Vanzari Count],
+    [Measures].[Average Quantity Sold]
+  } ON COLUMNS,
+  [Filtered Clients] ON ROWS
+FROM [Bd Vanzari_CUBE]
+where [Pret Inregistrare].[3.25]
+
+
+
+
+
+
+
+

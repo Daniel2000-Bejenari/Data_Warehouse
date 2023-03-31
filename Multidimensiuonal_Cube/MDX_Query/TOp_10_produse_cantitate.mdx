@@ -1,0 +1,10 @@
+SELECT [Measures].[Cantitate] ON COLUMNS,
+TOPCOUNT(
+    [Tbl Produse].[Denumire].MEMBERS,
+    11,
+    [Measures].[Cantitate]
+) ON ROWS
+FROM [Bd Vanzari_CUBE]
+
+
+

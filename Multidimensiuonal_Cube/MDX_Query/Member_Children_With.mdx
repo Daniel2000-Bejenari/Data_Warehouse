@@ -1,0 +1,9 @@
+with 
+MEMBER [Media Cantitatii Vandute] as
+[Cantitate] / [Tbl Vanzari Count], format_string='#,#0.00'
+select
+{[Cantitate], [Tbl Vanzari Count], [Media Cantitatii Vandute]} on rows,
+{[Nume Client].CHILDREN} on columns
+from [Bd Vanzari_CUBE]
+where [Denumire]
+

@@ -1,0 +1,4 @@
+select [Tbl Clienti].[Nume Client].[AANEI Vasilika] : [Tbl Clienti].[Nume Client].[GODOS] on columns,
+[Tbl Produse].[Denumire].CHILDREN on rows
+from [Bd Vanzari_CUBE]
+where [Measures].[Cantitate]
