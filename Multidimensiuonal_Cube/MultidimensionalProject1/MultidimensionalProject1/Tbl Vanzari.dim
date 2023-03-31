@@ -1,0 +1,310 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b800a3e4-dd32-4eeb-80f1-600ada969061" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tbl Vanzari</ID>
+  <Name>Tbl Vanzari</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1416" scrolltop="-24" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="86" x="5133" y="7355" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblVanzari" left="68" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="tblVanzari" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblProduse" left="20" top="5972" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3096" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000180c00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="tblProduse" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1169" top="3272" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[tblProdusetblVanzari]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1568" y="5972" />
+              <point x="1568" y="3572" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1416</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-24</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>86</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6630b9d9-963e-41cd-b637-1b7b40d4957e">
+    <DataSourceViewID>Bd Vanzari_view</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="434da2f6-a4c0-4910-a015-0be16f3b46d6">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="5966b60a-6b7a-4b57-ae25-4633ab514080">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fa9daea8-ce35-47bb-a3e0-36f9b992dfe8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="71511e2f-66e1-4241-bd0c-7dbe5f757385">
+            <TableID>tblVanzari</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="93522f29-77de-489f-8f04-7fedab0df537">
+          <AttributeID>Cantitate</AttributeID>
+          <Name>Cantitate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eb2b6521-6dc6-49aa-acf3-ca2535c0b8ea">
+          <AttributeID>Data</AttributeID>
+          <Name>Data</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ba048eb1-6b82-42f6-b054-ce7df4375888">
+          <AttributeID>Cod Produs</AttributeID>
+          <Name>Cod Produs</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b1bd653-36d2-4ccb-b5e7-89f230c7b543">
+      <ID>Cantitate</ID>
+      <Name>Cantitate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9129b3f4-d690-4863-bab4-8a2c673cc43b">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d330d6f-1784-4ca5-a180-1de85fcde1d9">
+            <TableID>tblVanzari</TableID>
+            <ColumnID>Cantitate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="025cb4b7-a53b-4bc8-8a3e-8a8cd9174c24">
+      <ID>Data</ID>
+      <Name>Data</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f98f2c5-47e7-4002-a60b-9dc2f2731464">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f30e92a-57d7-405c-aff9-1bd432d37571">
+            <TableID>tblVanzari</TableID>
+            <ColumnID>Data</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="680cb064-be02-41eb-ba10-5c6460c7504f">
+      <ID>Cod Produs</ID>
+      <Name>Cod Produs</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="26d136bb-2ffa-4f17-a5db-bf3aaf14a6b0">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="66bbc379-3d57-4858-bcb6-1efe2c96b176">
+            <TableID>tblProduse</TableID>
+            <ColumnID>CodProdus</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="986f4e32-90bf-4f55-b9b0-a98752f9c471">
+          <AttributeID>Denumire</AttributeID>
+          <Name>Denumire</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a6ba96a3-ada6-43af-a53f-df01d26a5b13">
+          <AttributeID>Categorie</AttributeID>
+          <Name>Categorie</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b1c3c0f1-8215-4f80-909a-96fe055b5e94">
+          <AttributeID>Stoc</AttributeID>
+          <Name>Stoc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7a95d3fc-8fc3-4022-9dba-93d62a8e4fb6">
+          <AttributeID>Pret Inregistrare</AttributeID>
+          <Name>Pret Inregistrare</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b90546ef-c14a-4788-83ad-1f82051bc642">
+      <ID>Denumire</ID>
+      <Name>Denumire</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1595e82-a88f-4b76-b15c-618ea6a64c8d">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="37a45ca5-4a23-4bb7-8315-702fc6840fbd">
+            <TableID>tblProduse</TableID>
+            <ColumnID>Denumire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3a7e03c8-5c7b-4655-965e-a8d1239f5e8e">
+      <ID>Categorie</ID>
+      <Name>Categorie</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9bf92d88-b734-4ba6-ab97-da567b091dd1">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e047fc4f-0be4-4870-8447-ed30c502041d">
+            <TableID>tblProduse</TableID>
+            <ColumnID>Categorie</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7b4991ed-dcfc-40b1-a0ea-dd8574dd76bd">
+      <ID>Stoc</ID>
+      <Name>Stoc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="64850fc6-0980-4e16-a408-0dfb3b7e0779">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2100dbd8-76c0-418f-b501-452aec14498b">
+            <TableID>tblProduse</TableID>
+            <ColumnID>Stoc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3e3e7388-1858-48f1-9c23-72041a551269">
+      <ID>Pret Inregistrare</ID>
+      <Name>Pret Inregistrare</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5f1b90f8-acae-4f6e-9db2-a5caa00750c4">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="706e4295-87a8-41b8-b5c2-3e34527fa60d">
+            <TableID>tblProduse</TableID>
+            <ColumnID>PretInregistrare</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c006cc9a-853c-443a-9eeb-125b3fb41784">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="043c0daa-6f71-4ee9-abfc-11ac82fa36ea">
+          <ID>Categorie</ID>
+          <Name>Categorie</Name>
+          <SourceAttributeID>Categorie</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="acd541d5-dee7-47e8-840f-d3fe03f63685">
+          <ID>Denumire</ID>
+          <Name>Denumire</Name>
+          <SourceAttributeID>Denumire</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="412069a9-5691-4b3f-b8d7-05b8dd0ead09">
+          <ID>Stoc</ID>
+          <Name>Stoc</Name>
+          <SourceAttributeID>Stoc</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="28dac64f-5e2d-448a-a72e-bc5cc33bbf6f">
+          <ID>Cantitate</ID>
+          <Name>Cantitate</Name>
+          <SourceAttributeID>Cantitate</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="002aeb8a-ba16-40c6-bd11-9463c58807ec">
+          <ID>Pret Inregistrare</ID>
+          <Name>Pret Inregistrare</Name>
+          <SourceAttributeID>Pret Inregistrare</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

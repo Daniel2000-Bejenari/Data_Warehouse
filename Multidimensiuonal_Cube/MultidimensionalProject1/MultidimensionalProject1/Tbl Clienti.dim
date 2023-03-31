@@ -1,0 +1,271 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c2b32f5e-7dc6-468f-b35a-cea9c0c1b525" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tbl Clienti</ID>
+  <Name>Tbl Clienti</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1300" scrolltop="16" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="91" x="5133" y="7355" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblClienti" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="tblClienti" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblLocalitati" left="20" top="5125" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="tblLocalitati" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="2425" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[tblLocalitatitblClienti]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="5125" />
+              <point x="1520" y="2725" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1300</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>16</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>91</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="fc266466-b991-4c4b-af29-62e72ea41b0d">
+    <DataSourceViewID>Bd Vanzari_view</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="72db1434-5adb-43fe-b0c9-5de7e55d9149">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="70e1b37f-cce6-4053-a39c-7b22195b8291">
+      <ID>Cod Client</ID>
+      <Name>Cod Client</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c4e7d43-ae56-4de9-bdb2-c478b30cb59e">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="caca0b80-3e1b-4d15-b849-3754bea07acf">
+            <TableID>tblClienti</TableID>
+            <ColumnID>CodClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="915dc4c0-72d9-4829-9df7-f37ff462cd98">
+          <AttributeID>Nume Client</AttributeID>
+          <Name>Nume Client</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="89e0be20-4df2-4773-9623-a4df13746419">
+          <AttributeID>Tip Client</AttributeID>
+          <Name>Tip Client</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c28b0026-c694-481f-b989-64de2832847a">
+          <AttributeID>Regiune</AttributeID>
+          <Name>Regiune</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b7380a26-9583-413e-80e8-3fb22c103bd6">
+          <AttributeID>Judet</AttributeID>
+          <Name>Judet</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5cfe8549-9c3c-45e3-b8f0-e4dd5419d5cc">
+          <AttributeID>Localitate</AttributeID>
+          <Name>Localitate</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb6750ba-c281-434a-bb79-f3d6d2437dd8">
+      <ID>Nume Client</ID>
+      <Name>Nume Client</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cde9dd0e-856c-44d5-a156-eeee6d39ba63">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f7790b66-3c0e-4806-abe5-1c079e387f97">
+            <TableID>tblClienti</TableID>
+            <ColumnID>NumeClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ac7f6b33-929f-4e17-8bbd-9134347330b4">
+      <ID>Tip Client</ID>
+      <Name>Tip Client</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1cb4bc7-281f-4012-a4f8-3994c661c932">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df9b6649-0845-46bf-bbf5-966bcfb1a7bf">
+            <TableID>tblClienti</TableID>
+            <ColumnID>TipClient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="72bb903c-7853-4ddf-91ff-8bd142a89644">
+      <ID>Regiune</ID>
+      <Name>Regiune</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d944da20-d518-4ac6-b256-4d781f9023e2">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c09b4e6c-3c4b-42d0-841a-672e80275b0f">
+            <TableID>tblLocalitati</TableID>
+            <ColumnID>Regiune</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb711f99-5c81-4185-981e-aab11012a7f5">
+      <ID>Judet</ID>
+      <Name>Judet</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0ffafd33-189e-4305-8b76-3c0d4bee1b27">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="04b82f0c-417c-420e-bd4c-c300df93f9cf">
+            <TableID>tblLocalitati</TableID>
+            <ColumnID>Judet</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d0b50876-df60-4d84-ab99-7178368aa6ce">
+      <ID>Localitate</ID>
+      <Name>Localitate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="079c6e0b-5158-4d1b-b28c-1f84f73c13fd">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e8112b6-5dba-45eb-934c-954d8788e0f7">
+            <TableID>tblLocalitati</TableID>
+            <ColumnID>Localitate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="14d94185-83f9-44fe-bc29-5229b5ef29aa">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="057e7cc7-2710-4182-accb-ed2707fdd31a">
+          <ID>Tip Client</ID>
+          <Name>Tip Client</Name>
+          <SourceAttributeID>Tip Client</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="db22ace9-d1bd-4adf-8b9b-3a3162131e59">
+          <ID>Nume Client</ID>
+          <Name>Nume Client</Name>
+          <SourceAttributeID>Nume Client</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="246b67fe-d25b-4122-af32-79256978ba0d">
+          <ID>Regiune</ID>
+          <Name>Regiune</Name>
+          <SourceAttributeID>Regiune</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8b36d07f-75ba-4de6-a301-5052a0a4edf8">
+          <ID>Judet</ID>
+          <Name>Judet</Name>
+          <SourceAttributeID>Judet</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1363b8c8-e009-49b2-be73-c7dc126942a8">
+          <ID>Localitate</ID>
+          <Name>Localitate</Name>
+          <SourceAttributeID>Localitate</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,403 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0bd12d59-0c53-4606-b8a7-af74012c58d0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Bd Vanzari_view</ID>
+  <Name>Bd Vanzari_view</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2492" scrolltop="7051" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="12541" y="8678" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblClienti" left="54" top="11851" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="tblClienti" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblLocalitati" left="54" top="5879" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000f40d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="tblLocalitati" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblProduse" left="5454" top="17187" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3096" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000180c00004d0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="tblProduse" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblVanzari" left="54" top="16976" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000f40d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="tblVanzari" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblAgenti" left="20" top="22948" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3069" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000fd0b0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="tblAgenti" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="clienti din judetul iasi" left="7773" top="-176" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="5141" height="3219" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a000015140000930c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="clienti din judetul iasi" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="clienti din localitatea iasi" left="20" top="0" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="6094" height="4031" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000ce170000bf0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="clienti din localitatea iasi" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1155" top="8952" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblLocalitatitblClienti]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1554" y="9451" />
+                    <point x="1554" y="11851" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1155" top="14077" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblClientitblVanzari]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1554" y="14576" />
+                    <point x="1554" y="16976" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1155" top="20248" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblAgentitblVanzari]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1554" y="22948" />
+                    <point x="1554" y="20548" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2754" top="18362" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblProdusetblVanzari]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5454" y="18761" />
+                    <point x="4254" y="18761" />
+                    <point x="4254" y="18762" />
+                    <point x="3054" y="18762" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-2492</DiagramViewPortLeft>
+            <DiagramViewPortTop>7051</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Bd Vanzari</DataSourceID>
+  <Schema>
+    <xs:schema id="Bd_x0020_Vanzari_view" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Bd_x0020_Vanzari_view" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="ade9f4f2-eaf2-4f32-9cce-59713797c2fc">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="tblClienti" msprop:design-time-name="c8d2b4a7-b11f-40e1-bab2-7faac7d096ac" msprop:DbTableName="tblClienti" msprop:FriendlyName="tblClienti" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CodClient" msprop:design-time-name="aba59390-06bf-447a-9c37-88fd1b72be48" msprop:DbColumnName="CodClient" msprop:FriendlyName="CodClient" type="xs:double" />
+                  <xs:element name="NumeClient" msprop:design-time-name="6efe7383-843e-487e-a183-a1b7afa6fc3b" msprop:DbColumnName="NumeClient" msprop:FriendlyName="NumeClient" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Locatie" msprop:design-time-name="d75634c8-0f81-429b-88e0-f4f3fa91f83c" msprop:DbColumnName="Locatie" msprop:FriendlyName="Locatie" type="xs:double" minOccurs="0" />
+                  <xs:element name="TipClient" msprop:design-time-name="e04d897f-0ebf-4cc2-b5ce-9a668ab704cf" msprop:DbColumnName="TipClient" msprop:FriendlyName="TipClient" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="tblLocalitati" msprop:design-time-name="4f11a513-c853-41d5-9507-6d2258f9fbaa" msprop:DbTableName="tblLocalitati" msprop:FriendlyName="tblLocalitati" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SIRUTA" msprop:design-time-name="d4d7533c-b08e-43df-b0a5-7db814a2ee03" msprop:DbColumnName="SIRUTA" msprop:FriendlyName="SIRUTA" type="xs:double" />
+                  <xs:element name="Regiune" msprop:design-time-name="4a94fc7e-bc0b-4002-932e-d6c018764b5e" msprop:DbColumnName="Regiune" msprop:FriendlyName="Regiune" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Judet" msprop:design-time-name="39a89229-5d6a-45fe-9ce8-224ed52f8939" msprop:DbColumnName="Judet" msprop:FriendlyName="Judet" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Localitate" msprop:design-time-name="f8bc5918-5832-420b-ab2a-932583ede6a8" msprop:DbColumnName="Localitate" msprop:FriendlyName="Localitate" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Mediu" msprop:design-time-name="7eb48b9c-0bbe-43c1-92c3-9e3df9a10d71" msprop:DbColumnName="Mediu" msprop:FriendlyName="Mediu" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Comuna" msprop:design-time-name="51fe0cd1-b916-4c3a-8fec-b4f61d5a55b6" msprop:DbColumnName="Comuna" msprop:FriendlyName="Comuna" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="tblProduse" msprop:design-time-name="c35e5643-bda6-433d-b017-5000b17b9fa3" msprop:DbTableName="tblProduse" msprop:FriendlyName="tblProduse" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CodProdus" msprop:design-time-name="2d635ec3-45eb-43cc-b77e-bd190ff04bfc" msprop:DbColumnName="CodProdus" msprop:FriendlyName="CodProdus" type="xs:double" />
+                  <xs:element name="Denumire" msprop:design-time-name="7e6d0629-9b0c-4560-b29e-426818a4b910" msprop:DbColumnName="Denumire" msprop:FriendlyName="Denumire" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Categorie" msprop:design-time-name="75f6e34f-d48e-4da7-af8d-f4a2fe4f826f" msprop:DbColumnName="Categorie" msprop:FriendlyName="Categorie" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Stoc" msprop:design-time-name="bdfb676b-a7ee-42de-87ad-4015cb555753" msprop:DbColumnName="Stoc" msprop:FriendlyName="Stoc" type="xs:double" minOccurs="0" />
+                  <xs:element name="PretInregistrare" msprop:design-time-name="7f8de9b1-b545-45f4-93a1-ab4d8005e9c4" msprop:DbColumnName="PretInregistrare" msprop:FriendlyName="PretInregistrare" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="tblVanzari" msprop:design-time-name="2223fba1-71c2-4584-a6db-be2b26c9e919" msprop:DbTableName="tblVanzari" msprop:FriendlyName="tblVanzari" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:AutoIncrement="true" msprop:design-time-name="001dd5fd-b954-4940-8065-f525461c52b2" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="Agent" msprop:design-time-name="2271f002-e51b-4484-af24-058a87e8435d" msprop:DbColumnName="Agent" msprop:FriendlyName="Agent" type="xs:double" minOccurs="0" />
+                  <xs:element name="Client" msprop:design-time-name="97c347c6-a9a0-44c8-98c9-fc52c67b118b" msprop:DbColumnName="Client" msprop:FriendlyName="Client" type="xs:double" minOccurs="0" />
+                  <xs:element name="Produs" msprop:design-time-name="2fd95694-fbcd-47be-a06c-eea7f00a0c19" msprop:DbColumnName="Produs" msprop:FriendlyName="Produs" type="xs:double" minOccurs="0" />
+                  <xs:element name="Cantitate" msprop:design-time-name="914daf27-69d3-4bac-a1b0-092e61e25029" msprop:DbColumnName="Cantitate" msprop:FriendlyName="Cantitate" type="xs:double" minOccurs="0" />
+                  <xs:element name="Data" msprop:design-time-name="1d8b6b7e-5044-4bad-baf8-43c344e3f917" msprop:DbColumnName="Data" msprop:FriendlyName="Data" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="tblAgenti" msprop:design-time-name="6ad9df36-5f68-4922-8a0f-1199b794dc9b" msprop:DbTableName="tblAgenti" msprop:FriendlyName="tblAgenti" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CodAgent" msprop:design-time-name="f202b1d1-7523-4259-b578-8c24c6670659" msprop:DbColumnName="CodAgent" msprop:FriendlyName="CodAgent" type="xs:double" />
+                  <xs:element name="NumePrenume" msprop:design-time-name="97064cdc-60db-4d22-bb9e-5fa086c8e199" msprop:DbColumnName="NumePrenume" msprop:FriendlyName="NumePrenume" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Regiunea" msprop:design-time-name="6be1c3a4-7b7b-4802-a749-00c4e55a1220" msprop:DbColumnName="Regiunea" msprop:FriendlyName="Regiunea" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="clienti_x0020_din_x0020_judetul_x0020_iasi" msprop:design-time-name="a25d9afc-b1c9-4634-82e6-6f6f8b433d5d" msprop:DbTableName="clienti din judetul iasi" msprop:FriendlyName="clienti din judetul iasi" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="LOCALITATE" msprop:design-time-name="479ab5e6-9419-4537-a1f3-5b3069ed75f6" msprop:DbColumnName="LOCALITATE" msprop:FriendlyName="LOCALITATE" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NUMAR_x0020_CLIENTI_x0020_IASI" msprop:design-time-name="68a9bd94-5206-48df-b9a2-946c8424b735" msprop:DbColumnName="NUMAR CLIENTI IASI" msprop:FriendlyName="NUMAR CLIENTI IASI" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="clienti_x0020_din_x0020_localitatea_x0020_iasi" msprop:design-time-name="dc4e5a44-a7ed-4779-bdd0-b68fe4adf161" msprop:DbTableName="clienti din localitatea iasi" msprop:FriendlyName="clienti din localitatea iasi" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="LOCALITATE" msprop:design-time-name="9295af66-f57e-4030-b580-24315cf2517e" msprop:DbColumnName="LOCALITATE" msprop:FriendlyName="LOCALITATE" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NUMAR_x0020_CLIENTI_x0020_IASI" msprop:design-time-name="a8a98a83-b12b-427f-b7d8-9fbbbd8792e8" msprop:DbColumnName="NUMAR CLIENTI IASI" msprop:FriendlyName="NUMAR CLIENTI IASI" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//tblClienti" />
+          <xs:field xpath="CodClient" />
+        </xs:unique>
+        <xs:unique name="tblLocalitati_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//tblLocalitati" />
+          <xs:field xpath="SIRUTA" />
+        </xs:unique>
+        <xs:unique name="tblProduse_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//tblProduse" />
+          <xs:field xpath="CodProdus" />
+        </xs:unique>
+        <xs:unique name="tblVanzari_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//tblVanzari" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="tblAgenti_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//tblAgenti" />
+          <xs:field xpath="CodAgent" />
+        </xs:unique>
+        <xs:keyref name="tblProdusetblVanzari" refer="tblProduse_Constraint1">
+          <xs:selector xpath=".//tblVanzari" />
+          <xs:field xpath="Produs" />
+        </xs:keyref>
+        <xs:keyref name="tblAgentitblVanzari" refer="tblAgenti_Constraint1">
+          <xs:selector xpath=".//tblVanzari" />
+          <xs:field xpath="Agent" />
+        </xs:keyref>
+        <xs:keyref name="tblClientitblVanzari" refer="Constraint1">
+          <xs:selector xpath=".//tblVanzari" />
+          <xs:field xpath="Client" />
+        </xs:keyref>
+        <xs:keyref name="tblLocalitatitblClienti" refer="tblLocalitati_Constraint1">
+          <xs:selector xpath=".//tblClienti" />
+          <xs:field xpath="Locatie" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Bd_x0020_Vanzari_view xmlns="" />
+  </Schema>
+</DataSourceView>
